@@ -1,17 +1,16 @@
 main:
 
-
-  - title: "Conferences & Events"
-    url: ./#conferences
-
-  - title: "Publications"
-    url: ./#publications
-
-  - title: "Projects"
-    url: ./#projects
-
   - title: "News"
     url: ./#news
 
   - title: "Bio"
     url: ./#about-me
+
+  - title: "Publications"
+    url: ./#publications
+    
+  - title: "Conferences & Events"
+    url: ./#conferences
+
+  - title: "Projects"
+    url: ./#projects
