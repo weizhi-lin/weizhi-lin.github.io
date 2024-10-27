@@ -10,7 +10,7 @@ body {
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  padding-top: 80px; /* Adjust this based on the new navbar height */
+  padding-top: 60px; /* Adjust this to match the navbar height */
   background-color: #f5f5f5;
   color: #333;
 }
@@ -22,45 +22,45 @@ body {
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: #333;
-  padding: 20px 0; /* Increase padding for more space */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for visual separation */
+  background-color: #1a2a5b; /* Dark blue background color */
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .navbar .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center; /* Center the navigation bar links */
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 /* Logo styling */
 .navbar .logo {
-  font-size: 1.8rem; /* Increase logo font size */
+  font-size: 1.5rem;
   color: #fff;
   text-decoration: none;
+  margin-right: auto; /* Push logo to the left */
+  padding-left: 20px; /* Add left padding for spacing */
 }
 
 /* Navigation links as a row */
 .navbar .nav-links {
   display: flex;
-  gap: 30px; /* Add more gap between links */
+  gap: 25px; /* Add spacing between links */
 }
 
 .navbar .nav-links a {
-  color: #ccc; /* Set font color to grey */
+  color: #fff; /* Set font color to white */
   text-decoration: none;
-  font-size: 1.2rem; /* Increase link font size */
-  padding: 10px 20px; /* Increase padding around links */
+  font-size: 1.1rem;
+  padding: 10px 15px;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .navbar .nav-links a:hover {
-  background-color: #555; /* Background color on hover */
-  color: #fff; /* Change text color to white on hover */
-  border-radius: 4px;
+  background-color: #1e3a7a; /* Slightly lighter blue on hover */
+  border-radius: 5px; /* Rounded corners on hover */
 }
 
 /* Wrapper for main content */
@@ -72,117 +72,43 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Section and content styling */
-section {
-  margin: 20px 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 15px;
-  color: #333;
-}
-
-p {
-  margin-bottom: 15px;
-  line-height: 1.6;
-}
-
-a {
-  color: #0073e6;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #005bb5;
-  text-decoration: underline;
-}
-
-/* Image styling */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+/* Flex container for bio section */
+.bio-section {
+  display: flex;
+  justify-content: flex-end; /* Aligns content to the right */
+  align-items: flex-start;
+  gap: 20px; /* Space between image and text */
+  margin-top: 20px;
 }
 
 /* Avatar styling */
 .image.avatar img {
-  border-radius: 50%;
-  width: 150px; /* Adjust size as needed */
-  height: 150px; /* Adjust size as needed */
-  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+  object-fit: cover; /* Maintain aspect ratio */
+  margin-right: auto; /* Push avatar to the left */
 }
 
-/* Social icons styling */
-.social-icons {
-  display: flex;
-  gap: 10px;
-  margin-top: 15px;
+/* Content area for bio and research interest */
+.content-area {
+  max-width: 600px; /* Adjust the width as needed */
+  padding-left: 20px; /* Add padding to separate from the edge */
 }
 
-.social-icons a {
-  font-size: 1.5rem;
-  color: #333;
-  transition: color 0.3s;
+.content-area h2 {
+  margin-bottom: 15px;
+  color: #1a2a5b; /* Dark blue color for headers */
 }
 
-.social-icons a:hover {
-  color: #0073e6;
+.content-area p, .content-area ul {
+  margin-bottom: 15px;
+  line-height: 1.6;
 }
 
-/* Publications page specific styling */
-.publications {
-  margin-top: 20px;
-}
-
-.bibliography {
-  list-style-type: none;
-}
-
-.pub-row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
-
-.col-sm-3, .col-sm-9 {
-  flex: 1;
-  padding: 10px;
-}
-
-.title {
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.author {
-  margin-bottom: 5px;
-  color: #555;
-}
-
-.periodical {
-  margin-bottom: 10px;
-  font-style: italic;
-}
-
-.links {
-  margin-top: 10px;
-}
-
-.links a {
-  display: inline-block;
-  margin-right: 10px;
-  font-size: 12px;
-  padding: 5px 10px;
-  background-color: #0073e6;
-  color: #fff;
-  border-radius: 3px;
-  text-decoration: none;
-  transition: background-color 0.3s;
-}
-
-.links a:hover {
-  background-color: #005bb5;
+.content-area ul {
+  list-style: disc;
+  margin-left: 20px;
 }
 
 /* Responsive design */
@@ -192,24 +118,26 @@ img {
     align-items: center;
   }
 
+  .navbar .logo {
+    margin-bottom: 10px;
+    padding-left: 0;
+  }
+
   .navbar .nav-links {
     flex-direction: column;
     gap: 10px;
   }
 
+  .bio-section {
+    flex-direction: column; /* Stack image and content vertically */
+    align-items: center;
+  }
+
+  .image.avatar img {
+    margin: 0 auto;
+  }
+
   .wrapper {
     padding: 10px;
-  }
-
-  .pub-row {
-    flex-direction: column;
-  }
-
-  .col-sm-3, .col-sm-9 {
-    padding: 5px;
-  }
-
-  .links a {
-    margin-bottom: 5px;
   }
 }
