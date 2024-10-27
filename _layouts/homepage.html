@@ -39,21 +39,21 @@
   </head>
   <body>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-      <div class="container">
-        <!-- Logo or Site Title -->
-        <a href="{{ '/' | relative_url }}" class="logo">{{ site.title }}</a>
-
-        <!-- Navigation Links -->
-        <ul class="nav-links">
-          <li><a href="{{ '/' | relative_url }}">Home</a></li>
-          <li><a href="{{ '/about' | relative_url }}">About</a></li>
-          <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
-          <li><a href="{{ '/Publications' | relative_url }}">Publications</a></li>
-        </ul>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container">
+      <!-- Logo or Site Title -->
+      <a href="{{ '/' | relative_url }}" class="logo">{{ site.title }}</a>
+  
+      <!-- Navigation Links as Row -->
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        <a href="{{ '/publications/' | relative_url }}">Publications</a>
       </div>
-    </nav>
+    </div>
+  </nav>
       
     <div class="wrapper">
       <header>
