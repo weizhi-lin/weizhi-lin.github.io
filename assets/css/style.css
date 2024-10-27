@@ -1,36 +1,38 @@
-/* Basic styles for the navigation bar */
+/* Basic styling for the navigation bar */
 .navbar {
+  position: fixed; /* Make the navbar fixed */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure it stays above other elements */
   background-color: #333;
-  color: #fff;
   padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for visual separation */
 }
 
 .navbar .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+/* Logo styling */
 .navbar .logo {
   font-size: 1.5rem;
   color: #fff;
   text-decoration: none;
 }
 
+/* Navigation links as a row */
 .navbar .nav-links {
-  list-style: none;
   display: flex;
   gap: 20px;
 }
 
-.navbar .nav-links li {
-  margin: 0;
-}
-
-.navbar .nav-links li a {
+.navbar .nav-links a {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
@@ -38,7 +40,12 @@
   transition: background-color 0.3s;
 }
 
-.navbar .nav-links li a:hover {
+.navbar .nav-links a:hover {
   background-color: #555;
   border-radius: 4px;
+}
+
+/* Add padding to the body to avoid content hiding behind the fixed navbar */
+body {
+  padding-top: 60px; /* Adjust this value based on the navbar height */
 }
