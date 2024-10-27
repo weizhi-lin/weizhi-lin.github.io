@@ -1,22 +1,29 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "Finite Manufacturing Primitives: A Representation Scheme for Additive Manufacturing Quality Assurance"
+    authors: "<strong>Weizhi Lin</strong>, Yuanxiang Wang, Stephen Lu, Qiang Huang"
+    conference_short: "CIRP"
+    conference: "CIRP Annals - Manufacturing Technology, vol. 73, no. 1, pp. 97-100, 2024. ISSN: 0007-8506."
+    pdf: "https://doi.org/10.1016/j.cirp.2024.03.009"
+    image: "./assets/img/CIRP.png"
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "Automated Deviation-Aware Landmark Selection for Freeform Product Accuracy Qualification in 3D Printing"
+    authors: "<strong>Weizhi Lin</strong>, Qiang Huang"
+    conference_short: "IISE"
+    conference: "IISE Transactions (Data Science, Quality & Reliability), vol. 56, no. 12, pp. 1321–1330, 2023."
+    pdf: "https://doi.org/10.1080/24725854.2023.2280606"
+    image: "./assets/img/lmk.png"
+
+  - title: "Multiresolution Functional Characterization and Correction of Biofouling for Improved Biosensing Efficacy"
+    authors: "<strong>Weizhi Lin</strong>, Cesar Ruiz, Matan Aroosh, Hadar Ben-Yoav, Qiang Huang"
+    conference_short: "IISE"
+    conference: "IISE Transactions (Data Science, Quality & Reliability), vol. 56, no. 6, pp. 611-623, 2023."
+    pdf: "https://doi.org/10.1080/24725854.2023.2222162"
+    image: "./assets/img/Biofouling.png"
+
+  - title: "Shape Deviation Generator (SDG) — A Convolution Framework for Learning and Predicting 3D Printing Shape Accuracy"
+    authors: "Qiang Huang, Yuanxiang Wang, Mingdong Lyu, <strong>Weizhi Lin</strong>"
+    conference_short: "IEEE"
+    conference: "IEEE Transactions on Automation Science and Engineering, vol. 17, no. 3, pp. 1486-1500, 2020."
+    pdf: "https://doi.org/10.1109/TASE.2019.2959211"
+    image: "./assets/img/SDG.png"
