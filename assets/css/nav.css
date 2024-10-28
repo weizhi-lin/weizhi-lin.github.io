@@ -1,4 +1,4 @@
-/* Fixed top navigation bar */
+ /* Fixed top navigation bar */
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0; /* 10px;*/
+    padding: 10px 0;
     box-sizing: border-box;
 }
 
@@ -56,7 +56,8 @@
 /* Responsive design adjustments for mobile */
 @media print, screen and (max-width: 960px) {
     .topnav {
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow to the bar only on mobile */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds shadow to the bar only on mobile */
+        transform: translateX(-10px); /* Moves the bar 10px to the left on mobile */
     }
 
     .topnav #myLinks {
