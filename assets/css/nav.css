@@ -60,7 +60,7 @@
         align-items: flex-start; /* Aligns items to the left */
         width: 100%; /* Full width on mobile */
         background-color: #ffffff; /* White background for the bar */
-        padding: 15px 0; /* Increased padding for thicker bar */
+        padding: 1px 0; /* Increased padding for thicker bar */
         box-sizing: border-box; /* Ensures padding is included in width */
     }
 
@@ -75,9 +75,10 @@
         display: block; /* Shows the hamburger icon on mobile */
         font-size: 24px;
         color: #808080;
-        padding: 10px;
+        padding: 10px 15px; /* Adds padding on the right */
         cursor: pointer;
         margin-left: auto; /* Pushes the icon to the right */
+        margin-right: 10px; /* Adds space from the right edge */
         order: 1; /* Ensures the icon appears last in the flex container */
     }
 
