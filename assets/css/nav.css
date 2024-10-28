@@ -65,7 +65,7 @@
         display: block; /* Shows the hamburger icon on mobile */
         font-size: 16px;
         color: #808080;
-        padding: 8px 12px; /* Adds padding on the right */
+        padding: 6px 10px; /* Adds padding on the right */
         cursor: pointer;
         margin-left: auto; /* Pushes the icon to the right */
         margin-right: 10px; /* Adds space from the right edge */
@@ -76,7 +76,7 @@
         display: block;
         width: 100%;
         text-align: left; /* Aligns links to the left */
-        padding: 10px 12px;
+        padding: 8px 10px;
         background-color: #ffffff; /* White background for links */
         color: #808080; /* Grey text color for links */
     }
