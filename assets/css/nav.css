@@ -1,6 +1,6 @@
- /* Fixed navigation bar at the top */
+/* Fixed navigation bar at the top */
 .topnav {
-    background-color: #990000;
+    background-color: #ffffff; /* Sets background color to white */
     overflow: hidden;
     position: fixed;
     z-index: 999;
@@ -13,7 +13,7 @@
 /* Links inside the navigation bar */
 .topnav a.normal {
     float: right;
-    color: #f2f2f2;
+    color: #808080; /* Sets text color to grey */
     text-align: center;
     padding: 10px 9px;
     text-decoration: none;
@@ -22,8 +22,8 @@
 
 /* Hover effects for links */
 .topnav a.normal:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #f0f0f0; /* Light grey background on hover */
+    color: #000000; /* Black text on hover */
 }
 
 /* Adjusts the right margin for alignment */
@@ -38,7 +38,7 @@
     }
 
     .topnav a.normal {
-        color: white;
+        color: #808080; /* Grey text for smaller screens */
         float: none;
         padding: 14px 16px;
         text-decoration: none;
@@ -47,7 +47,7 @@
     }
 
     .topnav a.icon {
-        color: white;
+        color: #808080; /* Grey text for the icon */
         display: block;
         padding: 10px 16px;
         font-size: 17px;
@@ -59,7 +59,7 @@
     }
 
     .topnav a.right {
-        color: white;
+        color: #808080; /* Grey text for "right" links */
         float: none;
         padding: 14px 16px;
         text-decoration: none;
