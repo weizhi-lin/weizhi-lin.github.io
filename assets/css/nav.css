@@ -57,7 +57,8 @@
     .topnav {
         flex-direction: column; /* Stacks items vertically */
         align-items: flex-start; /* Aligns items to the left */
-        padding: 5px 8px; /* Reduces padding for a thinner bar */
+        padding: 4px 6px; /* Further reduced padding for a thinner bar */
+        height: auto; /* Adjusts height automatically */
     }
 
     .topnav #myLinks {
@@ -69,12 +70,12 @@
 
     .topnav a.icon {
         display: block; /* Shows the hamburger icon on mobile */
-        font-size: 15px; /* Slightly smaller font size */
+        font-size: 14px; /* Slightly smaller font size */
         color: #808080;
-        padding: 5px 8px; /* Further reduces padding for a thinner icon */
+        padding: 4px 6px; /* Minimal padding for a thinner icon */
         cursor: pointer;
         margin-left: auto; /* Pushes the icon to the right */
-        margin-right: 8px; /* Adds space from the right edge */
+        margin-right: 6px; /* Adds space from the right edge */
         order: 1; /* Ensures the icon appears last in the flex container */
     }
 
@@ -82,7 +83,7 @@
         display: block;
         width: 100%;
         text-align: left; /* Aligns links to the left */
-        padding: 6px 8px; /* Further reduces padding for slimmer links */
+        padding: 5px 6px; /* Further reduced padding for slimmer links */
         background-color: #ffffff; /* White background for links */
         color: #808080; /* Grey text color for links */
     }
