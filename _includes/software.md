@@ -1,4 +1,8 @@
-## Software
+<h1 id="software"></h1>
+
+<h2 style="margin: 60px 0px -15px;">
+  Software
+</h2>
 
 <div class="video-container">
     <video controls>
