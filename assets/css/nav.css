@@ -28,7 +28,7 @@
 
 /* Adjusts the right margin for alignment */
 .topnav a.right {
-    margin-right: 0;
+    margin-right: 10;
 }
 
 /* Responsive design adjustments */
@@ -55,7 +55,7 @@
         float: right;
         right: 0;
         top: 0;
-        margin-right: 5%;
+        margin-right: 15%;
     }
 
     .topnav a.right {
