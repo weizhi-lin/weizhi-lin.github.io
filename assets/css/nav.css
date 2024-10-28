@@ -7,17 +7,18 @@
     width: 100%;
     top: 0;  /* Aligns the nav to the very top */
     margin: 0;  /* Removes any margin */
-    padding: 0;  /* Removes any padding */
+    padding: 0 10px;  /* Adds padding to prevent overflow */
+    box-sizing: border-box; /* Ensures padding is within width */
 }
 
 /* Links inside the navigation bar */
 .topnav a.normal {
-    float: right;
     color: #808080; /* Sets text color to grey */
     text-align: center;
-    padding: 10px 9px;
+    padding: 10px 15px; /* Adjust padding for spacing */
     text-decoration: none;
     font-size: 17px;
+    display: inline-block; /* Ensures inline alignment */
 }
 
 /* Hover effects for links */
@@ -26,9 +27,9 @@
     color: #000000; /* Black text on hover */
 }
 
-/* Adjusts the right margin for alignment */
+/* Adjusts right margin for links */
 .topnav a.right {
-    margin-right: 10;
+    margin-right: 0; /* Removes any excess margin */
 }
 
 /* Responsive design adjustments */
@@ -43,7 +44,7 @@
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
-        display: block;
+        display: block; /* Stacks items vertically */
     }
 
     .topnav a.icon {
@@ -52,10 +53,9 @@
         padding: 10px 16px;
         font-size: 17px;
         position: absolute;
-        float: right;
-        right: 0;
+        right: 10px; /* Adjusts right alignment */
         top: 0;
-        margin-right: 15%;
+        margin-right: 0; /* Removes extra margin */
     }
 
     .topnav a.right {
@@ -65,14 +65,14 @@
         text-decoration: none;
         font-size: 17px;
         display: block;
-        margin-right: 0;
+        margin-right: 0; /* No margin on smaller screens */
     }
 }
 
 /* Adjust image alignment inside the navigation bar */
 .topnav img {
     margin: 0;  /* Removes any vertical margin */
-    margin-left: 0; /* Removes the left margin */
     padding: 10px; /* Adds padding for spacing */
     vertical-align: middle;  /* Aligns image vertically */
+    max-width: 100%; /* Ensures image fits within container */
 }
