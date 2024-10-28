@@ -55,6 +55,10 @@
 
 /* Responsive design adjustments for mobile */
 @media print, screen and (max-width: 960px) {
+    .topnav {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow to the bar only on mobile */
+    }
+
     .topnav #myLinks {
         display: none; /* Hidden by default on mobile */
     }
@@ -62,27 +66,27 @@
     .topnav a.icon {
         float: none;
         display: block; /* Shows the hamburger icon on mobile */
-        font-size: 14px; /* Slightly smaller font size */
-        background-color: #ffffff; /* White text for better contrast */
+        font-size: 14px;
+        background-color: #ffffff;
         color: #808080;
-        padding: 6px 8px; /* Minimal padding for a thinner icon */
+        padding: 6px 5px; /* Adjusted padding */
         margin: 0; /* Removes all margins */
         cursor: pointer;
-        border-radius: 0; /* Removes rounded edges */
+        border-radius: 0;
         align-self: flex-start; /* Aligns the icon to the left */
     }
 
     .topnav a.normal {
         display: block;
         width: 100%;
-        text-align: left; /* Aligns links to the left */
-        padding: 6px 8px; /* Reduces padding for a thinner bar */
-        background-color: #ffffff; /* White background for links */
-        color: #808080; /* Grey text color for links */
+        text-align: left;
+        padding: 8px 10px;
+        background-color: #ffffff;
+        color: #808080;
     }
 
     .topnav a.normal:hover {
-        background-color: #ddd; /* Light grey on hover */
-        color: #000000; /* Black text on hover */
+        background-color: #ddd;
+        color: #000000;
     }
 }
