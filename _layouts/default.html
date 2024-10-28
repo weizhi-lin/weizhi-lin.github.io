@@ -52,7 +52,29 @@
         }
       };
     </script>
-
+    
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      // Toggle the display between block and none
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  
+    // Optional: Remove reverseLinks function if not needed
+    function reverseLinks() {
+      var container = document.getElementById("myLinks");
+      var links = Array.from(container.getElementsByTagName('a'));
+      container.innerHTML = '';
+      // Appending links in reverse order (if necessary)
+      for (var i = links.length - 1; i >= 0; i--) {
+        container.appendChild(links[i]);
+      }
+    }
+  </script>
     
   </head>
   <body>
