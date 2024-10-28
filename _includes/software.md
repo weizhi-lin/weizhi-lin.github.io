@@ -4,7 +4,7 @@
   Software
 </h2>
 
-## Patent
+### Patent
 
 - **No. 63/709,170**: *System and Method of Automated Intrinsic Non-Rigid Registration for 3D Print Accuracy*, Provisional Patent, MCC Ref: 11760-024PV1. (**Weizhi Lin** and Prof. Qiang Huang)
 
