@@ -1,5 +1,7 @@
 ---
 layout: homepage
+title: "Software"
+permalink: /software/
 ---
 
 ## Software
