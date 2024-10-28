@@ -19,4 +19,3 @@ Weizhi Lin is a Ph.D. candidate at the University of Southern California under t
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/software.md %}
