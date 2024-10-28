@@ -2,9 +2,7 @@
 layout: homepage
 ---
 
-## About Me
-
-Weizhi Lin is a Ph.D. candidate at the University of Southern California under the supervision of Prof. Qiang Huang, with plans to graduate in Spring 2025. 
+I am a Ph.D. candidate at the University of Southern California under the supervision of Prof. Qiang Huang, with plans to graduate in Spring 2025. 
 
 
 ## Research Interests
