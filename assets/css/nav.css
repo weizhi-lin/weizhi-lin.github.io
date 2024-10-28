@@ -72,10 +72,10 @@
         display: block; /* Shows the hamburger icon on mobile */
         font-size: 14px; /* Slightly smaller font size */
         color: #808080;
-        padding: 4px 6px; /* Minimal padding for a thinner icon */
+        padding: 6px 8px; /* Minimal padding for a thinner icon */
         cursor: pointer;
         margin-left: auto; /* Pushes the icon to the right */
-        margin-right: 15px; /* Adds space from the right edge */
+        margin-right: 18px; /* Adds space from the right edge */
         order: 1; /* Ensures the icon appears last in the flex container */
     }
 
