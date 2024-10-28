@@ -57,13 +57,14 @@
     .topnav {
         flex-direction: column; /* Stacks items vertically */
         align-items: flex-start; /* Aligns items to the left */
+        background-color: #ffffff; /* Sets white background for the bar */
     }
 
     .topnav #myLinks {
         display: none; /* Hidden by default on mobile */
         flex-direction: column; /* Stacks links vertically */
         width: 100%; /* Full width for mobile */
-        background-color: #ffffff; /* White background for dropdown */
+        background-color: #f0f0f0; /* Light grey background for the dropdown */
     }
 
     .topnav a.icon {
@@ -71,6 +72,7 @@
         position: absolute;
         right: 10px;
         top: 10px;
+        color: #808080; /* Grey color for the icon */
     }
 
     .topnav a.normal {
@@ -78,5 +80,12 @@
         width: 100%;
         text-align: left; /* Aligns links to the left */
         padding: 14px 16px;
+        background-color: #ffffff; /* White background for links */
+        color: #808080; /* Grey text color for links */
+    }
+
+    .topnav a.normal:hover {
+        background-color: #ddd; /* Light grey on hover */
+        color: #000000; /* Black text on hover */
     }
 }
