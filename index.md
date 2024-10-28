@@ -14,7 +14,7 @@ Weizhi Lin is a Ph.D. candidate at the University of Southern California under t
 
 ## News
 
-- **[Oct. 2024]** Best Poster Winner in the QSR Student Poster Competition, 2024 Annual INFORMS Conference, The title of the poster was “Automated Surface Patch Extraction for 3D Printing Qualification”
+- **[Oct. 2024]** <strong style="color:#e74d3c; font-weight:600">Best Poster Winner</strong> in the QSR Student Poster Competition, 2024 Annual INFORMS Conference, The title of the poster was “Automated Surface Patch Extraction for 3D Printing Qualification”
 
 
 {% include_relative _includes/publications.md %}
