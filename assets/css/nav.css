@@ -5,7 +5,7 @@
     position: fixed;
     z-index: 999;
     width: 100%;
-    top: 0; /* Aligns the navigation bar to the top */
+    top: 10; /* Aligns the navigation bar to the top */
     display: flex;
     align-items: center;
     justify-content: space-between;
