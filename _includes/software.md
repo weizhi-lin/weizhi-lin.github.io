@@ -10,7 +10,7 @@
 
 - **No. 63/709,157**: *System and Method of Automated Surface Patch Extraction for 3D Printing Qualification*, Provisional Patent, MCC Ref: 11760-011PV1. (**Weizhi Lin** and Prof. Qiang Huang)
 
-### Demo: Automated Product Qualification of 3D Printing
+#### Demo: Automated Product Qualification of 3D Printing
 
 <div class="video-container">
     <video controls>
