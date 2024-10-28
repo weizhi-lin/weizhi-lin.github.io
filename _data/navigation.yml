@@ -9,8 +9,5 @@ main:
   - title: "Publications"
     url: ./#publications
     
-  - title: "Conferences & Events"
-    url: ./#conferences
-
   - title: "Software"
     url: ./#software
