@@ -1,7 +1,9 @@
 ---
-layout: homepage
+layout: default
+title: Publications
+permalink: /publications/
 ---
 
-## Publications 
+## Publications
 
-{% include_relative _includes/publications.md %}
+{% include publications.md %}
