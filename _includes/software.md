@@ -4,7 +4,16 @@
   Software
 </h2>
 
-### Demo: Automated Product Qualification of 3D Printing 
+## Patent
+
+- **D2024-0190**: *System and Method of Automated Accuracy Qualification for 3D Printed Products*, in the process of filing (**Weizhi Lin** and Prof. Qiang Huang)
+  - Automated product qualification software package to analyze point cloud data scanned from 3D objects and automatically quantify the geometric quality of products with complex geometries.
+
+- **No. 63/709,170**: *System and Method of Automated Intrinsic Non-Rigid Registration for 3D Print Accuracy*, Provisional Patent, MCC Ref: 11760-024PV1. (**Weizhi Lin** and Prof. Qiang Huang)
+
+- **No. 63/709,157**: *System and Method of Automated Surface Patch Extraction for 3D Printing Qualification*, Provisional Patent, MCC Ref: 11760-011PV1. (**Weizhi Lin** and Prof. Qiang Huang)
+
+### Demo: Automated Product Qualification of 3D Printing
 
 <div class="video-container">
     <video controls>
@@ -20,7 +29,7 @@
     height: 0;
     overflow: hidden;
     max-width: 100%;
-    margin-top: 30px;
+    margin-top: 30px; /* Adds space above the video */
 }
 
 .video-container video {
