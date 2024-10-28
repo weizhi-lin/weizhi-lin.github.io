@@ -18,12 +18,11 @@
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
-    
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
-    
+    <!-- Internal Stylesheets -->
     {% if site.font == "Sans Serif" %}
     <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
     {% else %}
@@ -39,10 +38,10 @@
 
     <link rel="stylesheet" href="./assets/css/nav.css">
 
+    <!-- MathJax Configuration -->
     <script type="text/javascript" id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
-    
     <script type="text/javascript">
       MathJax = {
         tex: {
@@ -52,78 +51,114 @@
       };
     </script>
 
+    <!-- Responsive Navigation JavaScript -->
     <script type="text/javascript">
-      function toggle_vis(id) {
-          var e = document.getElementById(id);
-          if (e.style.display == 'none')
-              e.style.display = 'inline';
-          else
-              e.style.display = 'none';
+      function toggleNav() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
       }
-   </script>
+    </script>
 
-   <script>
-      function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "inline") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "inline";
-        
-      }
+    <!-- Responsive Navigation Bar -->
+    <style>
+      .topnav {
+        background-color: #333;
+        overflow: hidden;
       }
 
-      function reverseLinks() {
-    var container = document.getElementById("myLinks");
-    var links = Array.from(container.getElementsByTagName('a'));
-    container.innerHTML = '';
-    for (var i = links.length - 1; i >= 0; i--) {
-      container.appendChild(links[i]);
-    }
-  }
-   </script>
-    
-  <!-- Navigation Bar -->
-  <div class="topnav">
-    <div id="myLinks">
-      {% include navigation.md %}
-    </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction();reverseLinks()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
 
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
 
-    
-    
+      .topnav .icon {
+        display: none;
+      }
+
+      @media screen and (max-width: 600px) {
+        .topnav a {display: none;}
+        .topnav a.icon {
+          float: right;
+          display: block;
+        }
+      }
+
+      .responsive {
+        position: relative;
+      }
+
+      .responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+
+      @media screen and (max-width: 600px) {
+        .topnav.responsive {position: relative;}
+        .topnav.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+        .topnav.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+      }
+    </style>
   </head>
+
   <body>
 
-      
+    <!-- Navigation Bar -->
+    <div class="topnav" id="myTopnav">
+      <div id="myLinks">
+        {% include navigation.md %}
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!-- Main Content -->
     <div class="wrapper">
       <header>
-        
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
-
         <h1>{{ site.title }}</h1>
 
         {% if site.position %}
         <position style="font-size:1.10rem;">{{ site.position }}</position>
         <br>
         {% endif %}
-      
 
         {% if site.subaffiliation %}
         <a href="{{ site.subaffiliation_link }}" rel="noopener" target="_blank">
-        <autocolor>{{ site.subaffiliation }}</autocolor>
+          <autocolor>{{ site.subaffiliation }}</autocolor>
         </a>
         <br>
         {% endif %}
-                
+
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        <a href="{{ site.affiliation_link }}" rel="noopener">
+          <autocolor>{{ site.affiliation }}</autocolor>
+        </a>
         <br>
         {% endif %}
         
@@ -131,59 +166,39 @@
         <email>{{ site.email }}</email>
         {% endif %}
         
-
-        <br>
-        <br>
+        <br><br>
         <div class="social-icons">
-        {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>  
-        {% endif %}
-
-        {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
-        </a>
-        {% endif %}
-
-        {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
-          <i class="fab fa-github"></i>
-        </a>
-        {% endif %}
-
-        {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        {% endif %}
-
-        {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-x-twitter"></i>
-        </a>
-        {% endif %}
+          {% if site.google_scholar %}
+          <a href="{{ site.google_scholar }}"><i class="ai ai-google-scholar"></i></a>
+          {% endif %}
+          {% if site.cv_link %}
+          <a href="{{ site.cv_link }}"><i class="ai ai-cv"></i></a>
+          {% endif %}
+          {% if site.github_link %}
+          <a href="{{ site.github_link }}"><i class="fab fa-github"></i></a>
+          {% endif %}
+          {% if site.linkedin %}
+          <a href="{{ site.linkedin }}"><i class="fab fa-linkedin"></i></a>
+          {% endif %}
+          {% if site.twitter %}
+          <a href="{{ site.twitter }}"><i class="fab fa-x-twitter"></i></a>
+          {% endif %}
         </div>
         <br>
-
       </header>
+
       <section>
-
-      {{ content }}
-
-      <br>
-
-      {% if site.enable_footnote %}
-      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
-      {% endif %}
-
+        {{ content }}
+        <br>
+        {% if site.enable_footnote %}
+        <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank">Minimal Light</a> theme.</small></p>
+        {% endif %}
       </section>
-      <footer>
-        
-      </footer>
+
+      <footer></footer>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
