@@ -63,7 +63,7 @@
         padding: 0; /* Removes all padding */
         margin: 0; /* Removes all margins */
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds shadow */
-        transform: translateX(-20px); /* Moves the bar 10px to the left on mobile */
+        transform: translateX(-23px); /* Moves the bar 10px to the left on mobile */
         width: 100%; /* Ensures full width */
     }
 
@@ -80,7 +80,7 @@
         color: #808080;
         padding: 5px; /* Adjusted padding */
         margin: 0; /* Removes all margins */
-        margin-left: 10px;
+        margin-left: 15px;
         cursor: pointer;
         border-radius: 0;
         align-self: flex-start; /* Aligns the icon to the left */
