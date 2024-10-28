@@ -12,17 +12,15 @@ I am a Ph.D. candidate at the University of Southern California under the superv
 
 ## Education
 
-- **University of Southern California**, Los Angeles, CA  
-  *PhD in Industrial and Systems Engineering*  
-  **Aug. 2019 - Present**  
+### University of Southern California, Los Angeles, CA
+**Ph.D. Candidate**, Industrial and Systems Engineering (2019 - Present)  
   - **Thesis**: Domain-Informed Surface Manifold Data Learning and Its Application in 3D Printing
-  - **Thesis Advisor**: Prof. Qiang Huang
+  - **Advisor**: Prof. Qiang Huang
   - **Expected Graduation**: May 2025
-  - *Fulfilled Master of Science in Statistics course requirements*
+  - Fulfilled Master of Science in Statistics course requirements
 
-- **Beihang University**, Beijing, China  
-  *Bachelor of Science in Statistics*  
-  **Sep. 2015 - July 2019**
+### Beihang University, Beijing, China
+**B.Sc.**, Statistics (2015 - 2019)
 
 ## News
 
