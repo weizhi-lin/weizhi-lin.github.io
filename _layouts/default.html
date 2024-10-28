@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{{ site.title }} | {{ site.affiliation }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} | {{ site.affiliation }}</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +14,9 @@
     <link rel="canonical" href="{{ site.canonical }}{{ page.permalink }}"/>
     {% endif %}
 
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
-    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+    <!-- Favicon -->
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark | relative_url }}" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon | relative_url }}" type="image/png" />
     <script src="{{ '/assets/js/favicon-switcher.js' | relative_url }}" type="application/javascript"></script>
 
     <!-- External Stylesheets -->
@@ -49,11 +50,10 @@
   </div>
 
   <!-- Main Content Wrapper -->
-   <div class="wrapper">
+  <div class="wrapper">
       <header>
-        
         {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+        <a class="image avatar"><img src="{{ site.avatar | relative_url }}" alt="avatar" /></a>
         {% endif %}
 
         <h1>{{ site.title }}</h1>
@@ -62,11 +62,10 @@
         <position style="font-size:1.10rem;">{{ site.position }}</position>
         <br>
         {% endif %}
-      
 
         {% if site.subaffiliation %}
         <a href="{{ site.subaffiliation_link }}" rel="noopener" target="_blank">
-        <autocolor>{{ site.subaffiliation }}</autocolor>
+          <autocolor>{{ site.subaffiliation }}</autocolor>
         </a>
         <br>
         {% endif %}
@@ -79,45 +78,40 @@
         {% if site.email %}
         <email>{{ site.email }}</email>
         {% endif %}
-        
 
-        <br>
-        <br>
         <div class="social-icons">
-        {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>  
-        {% endif %}
+          {% if site.google_scholar %}
+          <a href="{{ site.google_scholar }}">
+            <i class="ai ai-google-scholar"></i>
+          </a>  
+          {% endif %}
 
-        {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
-        </a>
-        {% endif %}
+          {% if site.cv_link %}
+          <a href="{{ site.cv_link }}">
+            <i class="ai ai-cv"></i>
+          </a>
+          {% endif %}
 
-        {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
-          <i class="fab fa-github"></i>
-        </a>
-        {% endif %}
+          {% if site.github_link %}
+          <a href="{{ site.github_link }}">
+            <i class="fab fa-github"></i>
+          </a>
+          {% endif %}
 
-        {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        {% endif %}
+          {% if site.linkedin %}
+          <a href="{{ site.linkedin }}">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          {% endif %}
 
-        {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-x-twitter"></i>
-        </a>
-        {% endif %}
+          {% if site.twitter %}
+          <a href="{{ site.twitter }}">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          {% endif %}
         </div>
-        <br>
-
       </header>
-     
+
     <!-- Page Content -->
     <section>
       {{ content }}
