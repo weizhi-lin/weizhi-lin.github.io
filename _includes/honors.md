@@ -1,7 +1,7 @@
-<h1 id="bio"></h1>
+<h1 id="honors"></h1>
 
 <h2>
-  Major Hornors
+  Major Honors
 </h2>
 
 - **Best Poster Winner**: QSR Student Poster Competition, 2024 Annual INFORMS Conference. The title of the poster was *“Automated Surface Patch Extraction for 3D Printing Qualification”*.
