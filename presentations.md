@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Presentations
-permalink: /teaching/
+permalink: /presentations/
 ---
 
 
