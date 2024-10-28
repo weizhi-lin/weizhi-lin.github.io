@@ -1,9 +1,6 @@
-/* Fixed navigation bar at the top */
+ /* Fixed navigation bar at the top */
 .topnav {
-    display: flex;
-    justify-content: flex-start; /* Aligns content to the start (left) */
-    align-items: center; /* Centers items vertically */
-    background-color: #990000; /* Background color */
+    background-color: #990000;
     overflow: hidden;
     position: fixed;
     z-index: 999;
@@ -15,12 +12,12 @@
 
 /* Links inside the navigation bar */
 .topnav a.normal {
+    float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 10px 15px; /* Adjusts padding for better spacing */
+    padding: 10px 9px;
     text-decoration: none;
     font-size: 17px;
-    margin: 0;  /* Removes any margin */
 }
 
 /* Hover effects for links */
@@ -29,18 +26,15 @@
     color: black;
 }
 
-/* Adjust image alignment inside the navigation bar */
-.topnav img {
-    margin: 0;  /* Removes any vertical margin */
-    padding: 10px; /* Adds padding for spacing */
-    vertical-align: middle;  /* Aligns image vertically */
+/* Adjusts the right margin for alignment */
+.topnav a.right {
+    margin-right: 0;
 }
 
 /* Responsive design adjustments */
 @media screen and (max-width: 960px) {
-    .topnav {
-        flex-direction: column; /* Stacks items vertically on small screens */
-        align-items: flex-start; /* Aligns items to the left */
+    .topnav #myLinks {
+        display: none;
     }
 
     .topnav a.normal {
@@ -50,7 +44,6 @@
         text-decoration: none;
         font-size: 17px;
         display: block;
-        width: 100%; /* Makes links take the full width */
     }
 
     .topnav a.icon {
@@ -59,6 +52,7 @@
         padding: 10px 16px;
         font-size: 17px;
         position: absolute;
+        float: right;
         right: 0;
         top: 0;
         margin-right: 5%;
@@ -73,4 +67,12 @@
         display: block;
         margin-right: 0;
     }
+}
+
+/* Adjust image alignment inside the navigation bar */
+.topnav img {
+    margin: 0;  /* Removes any vertical margin */
+    margin-left: 0; /* Removes the left margin */
+    padding: 10px; /* Adds padding for spacing */
+    vertical-align: middle;  /* Aligns image vertically */
 }
