@@ -32,47 +32,34 @@
     margin-right: 0; /* Removes any excess margin */
 }
 
-/* Responsive design adjustments */
+/* Mobile Styles */
 @media screen and (max-width: 960px) {
     .topnav #myLinks {
         display: none;
+        width: 100%;
+    }
+
+    .topnav.responsive #myLinks {
+        display: block;
+        width: 100%;
+        text-align: left;
     }
 
     .topnav a.normal {
-        color: #808080; /* Grey text for smaller screens */
-        float: none;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block; /* Stacks items vertically */
+        display: block;
+        text-align: left;
     }
 
     .topnav a.icon {
-        color: #808080; /* Grey text for the icon */
+        float: right;
         display: block;
-        padding: 10px 16px;
-        font-size: 17px;
-        position: absolute;
-        right: 10px; /* Adjusts right alignment */
-        top: 0;
-        margin-right: 0; /* Removes extra margin */
-    }
-
-    .topnav a.right {
-        color: #808080; /* Grey text for "right" links */
-        float: none;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-        margin-right: 0; /* No margin on smaller screens */
     }
 }
 
 /* Adjust image alignment inside the navigation bar */
 .topnav img {
-    margin: 0;  /* Removes any vertical margin */
-    padding: 10px; /* Adds padding for spacing */
-    vertical-align: middle;  /* Aligns image vertically */
-    max-width: 100%; /* Ensures image fits within container */
+    margin: 0;
+    padding: 10px;
+    vertical-align: middle;
+    max-width: 100%;
 }
