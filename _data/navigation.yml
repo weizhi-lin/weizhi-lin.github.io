@@ -2,9 +2,12 @@ main:
 
   # - title: "News"
   #   url: ./#news
-
-  - title: "Bio"
+  
+  - title: "Home"
     url: /
+    
+  - title: "Bio"
+    url: /bio/
 
   - title: "Publications"
     url: /publications/
