@@ -62,6 +62,7 @@
 
     .topnav #myLinks {
         display: none; /* Hidden by default on mobile */
+        flex-direction: column; /* Stack items vertically */
     }
 
     .topnav a.icon {
