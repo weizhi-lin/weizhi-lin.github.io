@@ -71,7 +71,8 @@
     .topnav a.icon {
         display: block; /* Shows the hamburger icon on mobile */
         font-size: 14px; /* Slightly smaller font size */
-        color: #808080;
+        background-color: #808080;
+        color: #ffffff;
         padding: 6px 8px; /* Minimal padding for a thinner icon */
         cursor: pointer;
         margin-left: auto; /* Pushes the icon to the right */
