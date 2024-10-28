@@ -10,6 +10,20 @@ I am a Ph.D. candidate at the University of Southern California under the superv
 - Domain-informed machine learning of surface manifold data, with applications in autonomous 3D printing systems.
 - Digital twin systems for smart manufacturing and healthcare. 
 
+## Education
+
+- **University of Southern California**, Los Angeles, CA  
+  *PhD in Industrial and Systems Engineering*  
+  **Aug. 2019 - Present**  
+  - **Thesis**: Domain-Informed Surface Manifold Data Learning and Its Application in 3D Printing
+  - **Thesis Advisor**: Prof. Qiang Huang
+  - **Expected Graduation**: May 2025
+  - *Fulfilled Master of Science in Statistics course requirements*
+
+- **Beihang University**, Beijing, China  
+  *Bachelor of Science in Statistics*  
+  **Sep. 2015 - July 2019**
+
 ## News
 
 - **[Oct. 2024]** **<strong style="color:#e74d3c; font-weight:600">Best Poster Winner</strong>** in the QSR Student Poster Competition, 2024 Annual INFORMS Conference. The title of the poster was *“Automated Surface Patch Extraction for 3D Printing Qualification”*.
