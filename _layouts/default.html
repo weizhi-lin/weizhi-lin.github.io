@@ -50,10 +50,15 @@
 
   <!-- Main Content Wrapper -->
   <div class="wrapper">
+  <header>
+    {% if site.avatar %}
+    <a class="image avatar">
+      <img src="{{ site.avatar }}" alt="avatar" />
+    </a>
+    {% endif %}
+  </header>
+    
     <header>
-      {% if site.avatar %}
-      <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
-      {% endif %}
 
       <h1>{{ page.title }}</h1>
 
