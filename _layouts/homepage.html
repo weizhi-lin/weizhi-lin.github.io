@@ -57,10 +57,25 @@
 
     <!-- Navigation Bar -->
     <div class="topnav" id="myTopnav">
+      <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+        <i class="fa fa-bars"></i>
+      </a>
       <div id="myLinks">
         {% include navigation.md %}
       </div>
     </div>
+
+    <script>
+    function toggleNav() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+    
 
     <!-- Main Content -->
     <div class="wrapper">
