@@ -4,7 +4,7 @@
   Software
 </h2>
 
-## Demo: Automated Product Qualification of 3D Printing 
+### Demo: Automated Product Qualification of 3D Printing 
 
 <div class="video-container">
     <video controls>
