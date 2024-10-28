@@ -55,9 +55,16 @@
 
 /* Responsive design adjustments for mobile */
 @media print, screen and (max-width: 960px) {
-    .topnav {
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds shadow to the bar only on mobile */
-        transform: translateX(-10px); /* Moves the bar 10px to the left on mobile */
+
+
+     .topnav {
+        flex-direction: column; /* Stacks items vertically */
+        align-items: flex-start; /* Aligns items to the left */
+        padding: 0; /* Removes all padding */
+        margin: 0; /* Removes all margins */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds shadow */
+        transform: translateX(-20px); /* Moves the bar 10px to the left on mobile */
+        width: 100%; /* Ensures full width */
     }
 
     .topnav #myLinks {
@@ -71,8 +78,9 @@
         font-size: 14px;
         background-color: #ffffff;
         color: #808080;
-        padding: 6px 5px; /* Adjusted padding */
+        padding: 5px; /* Adjusted padding */
         margin: 0; /* Removes all margins */
+        margin-left: 10px;
         cursor: pointer;
         border-radius: 0;
         align-self: flex-start; /* Aligns the icon to the left */
@@ -82,7 +90,7 @@
         display: block;
         width: 100%;
         text-align: left;
-        padding: 8px 10px;
+        padding: 6px 8px; /* Thinner padding */
         background-color: #ffffff;
         color: #808080;
     }
