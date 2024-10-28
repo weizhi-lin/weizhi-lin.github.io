@@ -7,7 +7,7 @@ main:
     url: ./#about-me
 
   - title: "Publications"
-    url: ./#publications
+    url: /publications/
     
   - title: "Software"
     url: /software/
