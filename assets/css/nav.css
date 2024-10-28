@@ -52,16 +52,28 @@
     max-height: 50px;
 }
 
-
 /* Responsive design adjustments for mobile */
 @media print, screen and (max-width: 960px) {
     .topnav {
         flex-direction: column; /* Stacks items vertically */
         align-items: flex-start; /* Aligns items to the left */
         padding: 0; /* Removes all padding */
-        margin: 0; /* Removes all margin */
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a shadow below the bar */
+        margin: 0; /* Removes all margins */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds shadow */
         width: 100%; /* Ensures full width */
+    }
+
+    .topnav a.icon {
+        display: block; /* Shows the hamburger icon on mobile */
+        font-size: 16px; /* Adjust font size */
+        background-color: #808080; /* Background color for better visibility */
+        color: #ffffff; /* White color for icon */
+        padding: 8px; /* Adds padding for better touch area */
+        margin: 0; /* Removes margin */
+        border-radius: 0; /* Removes rounded edges */
+        align-self: stretch; /* Stretches to fill the container */
+        box-sizing: border-box; /* Includes padding in width calculation */
+        width: 50px; /* Sets a fixed width for the icon */
     }
 
     .topnav #myLinks {
@@ -69,27 +81,15 @@
         flex-direction: column; /* Stacks links vertically */
         width: 100%; /* Full width for mobile */
         background-color: #f0f0f0; /* Light grey background for the dropdown */
-    }
-
-    .topnav a.icon {
-        display: block; /* Shows the hamburger icon on mobile */
-        font-size: 14px; /* Slightly smaller font size */
-        background-color: #ffffff; /* White text for better contrast */
-        color: #808080;
-        padding: 6px 10px; /* Minimal padding for a thinner icon */
-        margin: 0; /* Removes all margins */
-        cursor: pointer;
-        border-radius: 0; /* Removes rounded edges */
-        align-self: flex-start; /* Aligns the icon to the left */
-        width: 100%; /* Ensures full width for the icon */
-        box-sizing: border-box; /* Includes padding in width calculation */
+        margin: 0; /* Removes any margin */
+        padding: 0; /* Removes any padding */
     }
 
     .topnav a.normal {
         display: block;
         width: 100%;
         text-align: left; /* Aligns links to the left */
-        padding: 8px 10px; /* Reduces padding for a thinner bar */
+        padding: 8px 10px; /* Reduced padding for thinner bar */
         background-color: #ffffff; /* White background for links */
         color: #808080; /* Grey text color for links */
     }
