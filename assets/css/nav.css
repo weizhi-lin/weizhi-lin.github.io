@@ -5,11 +5,11 @@
     position: fixed;
     z-index: 999;
     width: 100%;
-    top: 3; /* Aligns the navigation bar to the top */
+    top: 0; /* Aligns the navigation bar to the very top */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
@@ -37,10 +37,11 @@
 
 /* Hamburger icon for mobile */
 .topnav a.icon {
-    display: none; /* Hidden by default */
+    display: none; /* Hidden by default on desktop */
     color: #808080;
     font-size: 24px;
     padding: 10px;
+    cursor: pointer;
 }
 
 /* Image logo styling */
@@ -59,14 +60,14 @@
     }
 
     .topnav #myLinks {
-        display: none; /* Hidden by default */
+        display: none; /* Hidden by default on mobile */
         flex-direction: column; /* Stacks links vertically */
         width: 100%; /* Full width for mobile */
         background-color: #ffffff; /* White background for dropdown */
     }
 
     .topnav a.icon {
-        display: block; /* Shows the hamburger icon */
+        display: block; /* Shows the hamburger icon on mobile */
         position: absolute;
         right: 10px;
         top: 10px;
