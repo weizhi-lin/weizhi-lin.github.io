@@ -1,10 +1,5 @@
----
-layout: homepage
-title: "Software"
-permalink: /software/
----
-
 ## Software
+
 <div class="video-container">
     <video controls>
         <source src="https://www.dropbox.com/scl/fi/k7ijryw5sisu4y6brw4s7/Demo_4K.mp4?rlkey=3srd173qv7xormrsourtl6pb4&raw=1" type="video/mp4">
