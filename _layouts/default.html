@@ -80,13 +80,16 @@
   <body>
 
     <!-- Navigation Bar -->
-    <div class="topnav" id="myTopnav">
-      <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+    <div class="topnav">
+
+      <div id="myLinks">
+      {% include navigation.md %}
+      </div>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction();reverseLinks()">
         <i class="fa fa-bars"></i>
       </a>
-      <div id="myLinks">
-        {% include navigation.md %}
-      </div>
+      
     </div>
 
     <script>
