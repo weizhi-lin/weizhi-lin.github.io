@@ -49,9 +49,7 @@
   </div>
 
   <!-- Main Content Wrapper -->
-  <div class="wrapper">
-    
-    <div class="wrapper">
+   <div class="wrapper">
       <header>
         
         {% if site.avatar %}
@@ -64,36 +62,27 @@
         <position style="font-size:1.10rem;">{{ site.position }}</position>
         <br>
         {% endif %}
-        
-        {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>University of Illinois<br>Urbana-Champaign</autocolor></a>
+      
+
+        {% if site.subaffiliation %}
+        <a href="{{ site.subaffiliation_link }}" rel="noopener" target="_blank">
+        <autocolor>{{ site.subaffiliation }}</autocolor>
+        </a>
         <br>
         {% endif %}
-        
+                
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>University of Illinois<br>Urbana-Champaign</autocolor></a>
+        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
         {% endif %}
         
         {% if site.email %}
         <email>{{ site.email }}</email>
         {% endif %}
-        {% if site.email2 %}
-        <br>
-        <email>{{ site.email2 }}</email>
-        {% endif %}
         
-        <br>
-        <br>
 
-        {% if site.link_type == 'text' %}
-        [<a href="{{ site.google_scholar }}">Google Scholar</a>]
         <br>
-        [<a href="{{ site.cv_link }}">Curriculum Vitae</a>]
         <br>
-        {% endif %}
-
-        {% if site.link_type == 'icon' %}
         <div class="social-icons">
         {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
@@ -125,11 +114,10 @@
         </a>
         {% endif %}
         </div>
-        {% endif %}
         <br>
 
       </header>
-
+     
     <!-- Page Content -->
     <section>
       {{ content }}
