@@ -55,40 +55,31 @@
   <script>
     function myFunction() {
       var x = document.getElementById("myLinks");
-      // Toggle the display between block and none
       if (x.style.display === "block") {
         x.style.display = "none";
       } else {
         x.style.display = "block";
       }
     }
-  
-    // Optional: Remove reverseLinks function if not needed
-    function reverseLinks() {
-      var container = document.getElementById("myLinks");
-      var links = Array.from(container.getElementsByTagName('a'));
-      container.innerHTML = '';
-      // Appending links in reverse order (if necessary)
-      for (var i = links.length - 1; i >= 0; i--) {
-        container.appendChild(links[i]);
-      }
-    }
   </script>
+    
   </head>
 
   <body>
 
     <!-- Navigation Bar -->
-    <div class="topnav">
-
+    <div class="topnav" id="myTopnav">
+    
+      <!-- Include the navigation links -->
       <div id="myLinks">
-      {% include navigation.md %}
+        {% include navigation.md %}
       </div>
-
-      <a href="javascript:void(0);" class="icon" onclick="myFunction();reverseLinks()">
+    
+      <!-- Hamburger icon for mobile -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
-      
+    
     </div>
 
     <!-- Main Content -->
