@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0; /* 10px;*/
     box-sizing: border-box;
 }
 
@@ -65,7 +65,7 @@
         font-size: 14px; /* Slightly smaller font size */
         background-color: #ffffff; /* White text for better contrast */
         color: #808080;
-        padding: 6px 10px; /* Minimal padding for a thinner icon */
+        padding: 6px 8px; /* Minimal padding for a thinner icon */
         margin: 0; /* Removes all margins */
         cursor: pointer;
         border-radius: 0; /* Removes rounded edges */
@@ -76,7 +76,7 @@
         display: block;
         width: 100%;
         text-align: left; /* Aligns links to the left */
-        padding: 8px 10px; /* Reduces padding for a thinner bar */
+        padding: 6px 8px; /* Reduces padding for a thinner bar */
         background-color: #ffffff; /* White background for links */
         color: #808080; /* Grey text color for links */
     }
