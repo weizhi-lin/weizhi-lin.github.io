@@ -1,4 +1,9 @@
-## Teaching and Mentoring Experience
+<h1 id="teaching"></h1>
+
+<h2>
+  Teaching and Mentoring Experience
+</h2>
+
 
 ### Teaching Assistant
 
