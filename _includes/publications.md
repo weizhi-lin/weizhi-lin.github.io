@@ -1,5 +1,5 @@
 <!-- Journals Section -->
-<h3>Refereed Journals and Transactions</h3>
+<h2>Refereed Journals and Transactions</h2>
 <div class="publications">
 <ol class="bibliography">
 {% for link in site.data.publications.main %}
