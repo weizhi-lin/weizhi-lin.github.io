@@ -1,4 +1,5 @@
 main:
+
   - title: "Automated Surface Patch Extraction for 3D Printing Qualification"
     authors: "<strong>Weizhi Lin</strong>, Qiang Huang"
     conference_short: "TASE"
@@ -39,4 +40,4 @@ main:
     conference_short: "IEEE Access"
     conference: "IEEE Access, in press."
     pdf: "https://doi.org/10.1109/ACCESS.2025.3531913"
-    image: "./assets/img/ieee_access.png"
+    image: "./assets/img/ieee-access.png"
