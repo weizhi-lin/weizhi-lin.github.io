@@ -8,7 +8,7 @@
 </h2>
 
 <!-- Journals Section -->
-<h3>Journals</h3>
+<h3>Refereed Journals and Transactions</h3>
 <div class="publications">
 <ol class="bibliography">
 {% for link in site.data.publications.journals %}
