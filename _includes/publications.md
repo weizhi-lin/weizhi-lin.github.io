@@ -55,7 +55,7 @@
       <a href="{{ link.pdf | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       {% endif %}
       {% if link.award %}
-      <strong> <i style="color:#e74d3c; font-weight:600">{{ link.award }}</i></strong>
+      <strong> <i style="color:#BF1013; font-weight:600">{{ link.award }}</i></strong>
       {% endif %}
     </div>
   </div>
