@@ -1,4 +1,4 @@
-<h3>Proceedings</h3>
+<h2>Proceedings</h2>
 <div class="publications">
 <ol class="bibliography">
 {% for link in site.data.conference.main %}
