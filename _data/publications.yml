@@ -50,7 +50,7 @@ proceedings:
     authors: "<strong>Weizhi Lin</strong>, Yuanxiang Wang, and Qiang Huang"
     conference_short: "IEEE CASE"
     conference: "Proceedings of the 2024 IEEE 20th International Conference on Automation Science and Engineering (CASE)."
-    pdf: "10.1109/CASE59546.2024.10711345"  # Add DOI or link if available
+    pdf: "https://doi.org/10.1109/CASE59546.2024.10711345"  # Add DOI or link if available
     image: "./assets/img/case2024.png"
 
   - title: "Functional Characterization and Correction of Biofouling in Multi-Receptor Biosensors"
