@@ -13,3 +13,5 @@ permalink: /publications/
 </h2>
 
 {% include publications.md %}
+
+{% include conference.md %}
