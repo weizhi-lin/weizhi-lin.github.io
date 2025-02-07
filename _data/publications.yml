@@ -1,5 +1,7 @@
 main:
 
+journals:
+
   - title: "Automated Surface Patch Extraction for 3D Printing Qualification"
     authors: "<strong>Weizhi Lin</strong>, Qiang Huang"
     conference_short: "IEEE"
