@@ -2,7 +2,7 @@ main:
 
   - title: "Automated Surface Patch Extraction for 3D Printing Qualification"
     authors: "<strong>Weizhi Lin</strong>, Qiang Huang"
-    conference_short: "TASE"
+    conference_short: "IEEE"
     conference: "IEEE Transactions on Automation Science and Engineering, in press."
     pdf: "https://doi.org/10.1109/TASE.2025.3535900"
     image: "./assets/img/patch.png"
@@ -37,7 +37,7 @@ main:
 
   - title: "Automated Internal Defect Identification and Localization Based on a Near-field SAR Millimeter-Wave Imaging System"
     authors: "<strong>Weizhi Lin</strong>, Bui Quoc Cuong, Gyungsu Byun, Qiang Huang"
-    conference_short: "IEEE Access"
+    conference_short: "IEEE"
     conference: "IEEE Access, in press."
     pdf: "https://doi.org/10.1109/ACCESS.2025.3531913"
     image: "./assets/img/ieee-access.png"
