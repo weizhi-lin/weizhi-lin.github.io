@@ -1,4 +1,10 @@
 main:
+  - title: "Automated Surface Patch Extraction for 3D Printing Qualification"
+    authors: "<strong>Weizhi Lin</strong>, Qiang Huang"
+    conference_short: "TASE"
+    conference: "IEEE Transactions on Automation Science and Engineering, in press."
+    pdf: "https://doi.org/10.1109/TASE.2025.3535900"
+    image: "./assets/img/patch.png"
 
   - title: "Finite Manufacturing Primitives: A Representation Scheme for Additive Manufacturing Quality Assurance"
     authors: "<strong>Weizhi Lin</strong>, Yuanxiang Wang, Stephen Lu, Qiang Huang"
@@ -27,3 +33,10 @@ main:
     conference: "IEEE Transactions on Automation Science and Engineering, vol. 17, no. 3, pp. 1486-1500, 2020."
     pdf: "https://doi.org/10.1109/TASE.2019.2959211"
     image: "./assets/img/SDG.png"
+
+  - title: "Automated Internal Defect Identification and Localization Based on a Near-field SAR Millimeter-Wave Imaging System"
+    authors: "<strong>Weizhi Lin</strong>, Bui Quoc Cuong, Gyungsu Byun, Qiang Huang"
+    conference_short: "IEEE Access"
+    conference: "IEEE Access, in press."
+    pdf: "https://doi.org/10.1109/ACCESS.2025.3531913"
+    image: "./assets/img/ieee_access.png"
