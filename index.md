@@ -18,6 +18,5 @@ I am a Ph.D. candidate at the University of Southern California under the superv
 - **[Oct. 2024]** **<strong style="color:#BF1013; font-weight:600">Best Poster Winner</strong>** in the QSR Student Poster Competition, 2024 Annual INFORMS Conference. The title of the poster was *“Automated Surface Patch Extraction for 3D Printing Qualification”*.
 
 
-<!-- 
-{% include_relative _includes/publications.md %}
--->
+
+
