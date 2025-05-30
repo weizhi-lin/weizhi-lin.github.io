@@ -2,9 +2,7 @@
 layout: homepage
 ---
 
-I am a Ph.D. candidate at the University of Southern California under the supervision of Prof. Qiang Huang, with plans to graduate in Spring 2025. 
-
-**<strong style="color:#BF1013; font-weight:800"> I am actively seeking job opportunities where I can apply my expertise and contribute to impactful research and innovation.</strong>**
+**<strong style="color:#BF1013; font-weight:800"> I am delighted to announce that I will be joining the Department of Industrial and Systems Engineering at San José State University as a faculty member starting August 2025.</strong>**
 
 ## Research Interests
 
