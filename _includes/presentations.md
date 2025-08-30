@@ -7,6 +7,7 @@
 
 ### Conference Presentations
 
+- **"Automated Qualification of 3D-Printed Products for Personalized Manufacturing,"** *IEEE 21th International Conference on Automation Science and Engineering*, Los Angeles, California, 2025
 - **"Automated Surface Patch Extraction for 3D Printing Qualification,"** *INFORMS Annual Meeting*, Seattle, WA, 2024
 - **"Automated Printing Primitive Extraction and Learning for Complexity Reduction in Additive Manufacturing Operations,"** *IEEE 20th International Conference on Automation Science and Engineering*, Bari, Italy, Virtual Attendance, 2024
 - **"Process-Informed Small-Sample Learning of 2D Freeform Shape Quality in Additive Manufacturing Using Printing Primitives,"** *INFORMS Annual Meeting*, Phoenix, AZ, 2023
