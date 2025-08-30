@@ -4,10 +4,13 @@
   Teaching Experience
 </h2>
 
+#### Instructor (SJSU)
 
-#### Teaching Assistant
+- **ISE 130: Engineering Probability and Statistics** (Undergraduate’s Level), Fall 202
+  
+- **ISE 235: Quality and Reliability** (Master’s Level), Fall 2025
 
-Responsible for grading assignments and exams, mentoring class projects, evaluating presentations, conducting lab and review sessions, and delivering lectures.
+#### Teaching Assistant (USC)
 
 - **ISE 610: Advanced Design of Experiments and Quality Engineering (Doctoral Level)** Fall 2021 and Fall 2023
   - Rated as “an excellent TA” with a score of 4.8/5 in Fall 2023.
@@ -18,11 +21,6 @@ Responsible for grading assignments and exams, mentoring class projects, evaluat
 - **ISE 220: Probability Concepts in Engineering (Undergraduate Level)** Fall 2022
   - Nominated for Best Teaching Assistant Award
 
-Conducted weekly tutorials and handled grading of assignments and exams.
-
 - **ISE 529: Predictive Analytics (Master's Level)** Summer 2024
 - **ISE 514: Advanced Production Planning and Scheduling (Master's Level)** Summer 2023
-
-Coordinated seminar sessions.
-
-- **ISE 651: Seminar in Industrial & Systems Engineering (Doctoral Level)** Fall 2024
+- **ISE 651: Seminar in Industrial & Systems Engineering (Doctoral Level)** Fall 2024, Spring 2025
