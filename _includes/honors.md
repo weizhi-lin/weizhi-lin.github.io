@@ -4,6 +4,8 @@
   Major Honors
 </h2>
 
+- Finalist for the **Outstanding WiRA Student Paper Award**, 2025 IEEE 21st International Conference on Automation Science and Engineering, for the paper *"Automated Qualification of 3D-Printed Products for Personalized Manufacturing"*.
+  
 - **Best Poster Winner**: QSR Student Poster Competition, 2024 Annual INFORMS Conference. The title of the poster was *“Automated Surface Patch Extraction for 3D Printing Qualification”*.
 
 - **Best Poster Winner**: QSR Student Poster Competition, 2022 Annual INFORMS Conference. The title of the poster was *“Patch-Based Functional Deviation Characterization and Prediction for Complex Freeform Manifolds in Additive Manufacturing”*.
