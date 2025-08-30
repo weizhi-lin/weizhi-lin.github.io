@@ -101,11 +101,17 @@
         {% endif %}
 
         <h1>{{ site.title }}</h1>
+        
+        {% if site.subposition %}
+        <subposition style="font-size:1.0rem;">{{ site.subposition }}</subposition>
+        <br>
+        {% endif %}
 
         {% if site.position %}
         <position style="font-size:1.10rem;">{{ site.position }}</position>
         <br>
         {% endif %}
+        
 
         {% if site.subaffiliation %}
         <a href="{{ site.subaffiliation_link }}" rel="noopener" target="_blank">
