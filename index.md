@@ -23,11 +23,11 @@ Dr. Weizhi Lin is a tenure-track Assistant Professor in the [Department of Indus
   <li>Biosensing and nondestructive testing</li>
 </ul>
 
-## Openings
 
-Motivated students who enjoy hands-on experiments and data, rigorous thinking, and building solutions for complex engineering systems are welcome to join the [Twin Intelligence Lab](/lab/)!
+## Openings for Research Projects
 
-Please complete this <a href="https://forms.gle/1Z3GpYdaY8ar4r1H7" target="_blank" rel="noopener">form</a> to be considered. 
+- Motivated students who enjoy hands-on experiments and data, rigorous thinking, and building solutions for complex engineering systems are welcome to join the [Twin Intelligence Lab](/lab/)!
+- Please complete this <a href="https://forms.gle/1Z3GpYdaY8ar4r1H7" target="_blank" rel="noopener">form</a> to be considered. 
 
 
 ## News
