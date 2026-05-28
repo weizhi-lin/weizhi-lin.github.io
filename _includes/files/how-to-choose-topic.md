@@ -1,3 +1,8 @@
+---
+title: "How to Choose a Topic for Your Final Project"
+permalink: /how-to-choose-topic/
+---
+
 ## How to Choose a Topic for Your Final Project (UG and MS students)
 
 - This guide is intended for students who would like to work with me on a capstone or final-year project, such as ISE 298. It is not intended for students seeking research project opportunities. 
