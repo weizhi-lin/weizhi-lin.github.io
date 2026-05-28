@@ -2,20 +2,25 @@
 layout: homepage
 ---
 
+Dr. Weizhi Lin is a tenure-track Assistant Professor in the [Department of Industrial and Systems Engineering](https://www.sjsu.edu/ise/) at San José State University. She received her Ph.D. in Industrial and Systems Engineering from the [University of Southern California](https://ise.usc.edu/) in 2025, under the supervision of [Prof. Qiang Huang](https://huanglab.usc.edu/). Her research focuses on domain-informed statistical and machine learning methods for high-dimensional and complex data, including surface manifold data, biosensing signals, and image data. Her work contributes to the development of enabling methodologies for digital twin systems in smart manufacturing and healthcare.
 
 ## Research Interests
 
 Intelligent digital twin systems for smart manufacturing, healthcare, and complex engineering systems
 
-### Methodological Pillars
+**Methodological Pillars**
 - Geometric data representation, modeling, and learning
 - Domain-informed machine learning for high-dimensional, multimodal sensor data
 - Data-efficient learning, dimension reduction, and latent space modeling
 
-### Application Domains
+**Application Domains**
 - Automated product qualification and quality control for personalized additive manufacturing
 - Robotics and Embodied AI 
 - Biosensing and nondestructive testing
+
+## Opening Positions
+
+Motivated students who enjoy hands-on experiments and data, rigorous thinking, and building solutions for complex engineering systems are welcome to join the Twin Intelligence Lab! Please complete this [form](https://forms.gle/1Z3GpYdaY8ar4r1H7) to be considered. 
 
 
 ## News
