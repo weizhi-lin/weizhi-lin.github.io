@@ -4,20 +4,17 @@
 @import "minimal-light-no-dark-mode";
 
 
-/* Custom layout adjustment */
-.wrapper {
-  width: 1100px;
-  margin: 0 auto;
-}
+/* Custom desktop layout adjustment */
+@media print, screen and (min-width: 961px) {
+  .wrapper {
+    width: 1080px !important;
+  }
 
-header {
-  width: 260px;
-  float: left;
-  position: fixed;
-  margin-left: -40px;
-}
+  header {
+    margin-left: -40px !important;
+  }
 
-section {
-  width: 760px;
-  float: right;
+  section {
+    width: 760px !important;
+  }
 }
