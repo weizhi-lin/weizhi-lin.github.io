@@ -2,3 +2,22 @@
 ---
 
 @import "minimal-light-no-dark-mode";
+
+
+/* Custom layout adjustment */
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  width: 260px;
+  float: left;
+  position: fixed;
+  margin-left: -40px;
+}
+
+section {
+  width: 760px;
+  float: right;
+}
