@@ -7,7 +7,7 @@ Dr. Weizhi Lin is a tenure-track Assistant Professor in the [Department of Indus
 
 ## Opening Positions
 
-Motivated students who enjoy hands-on experiments and data, rigorous thinking, and building solutions for complex engineering systems are welcome to join the Twin Intelligence Lab! Please complete this [form](https://forms.gle/1Z3GpYdaY8ar4r1H7) to be considered. 
+Motivated students who enjoy hands-on experiments and data, rigorous thinking, and building solutions for complex engineering systems are welcome to join the Twin Intelligence Lab! Please complete this <a href="https://forms.gle/1Z3GpYdaY8ar4r1H7" target="_blank" rel="noopener">form<\a> to be considered. 
 
 
 ## News
