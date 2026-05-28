@@ -7,20 +7,23 @@ Dr. Weizhi Lin is a tenure-track Assistant Professor in the [Department of Indus
 ## Research Interests 
 Intelligent digital twin systems for smart manufacturing, healthcare, and complex engineering systems.
 
-_Methodological Pillars_
-- Geometric data representation, modeling, and learning
-- Domain-informed machine learning for high-dimensional, multimodal sensor data
-- Data-efficient learning, dimension reduction, and latent space modeling
+<p style="margin-bottom: 4px;"><em>Methodological Pillars</em></p>
+<ul style="margin-top: 0;">
+  <li>Geometric data representation, modeling, and learning</li>
+  <li>Domain-informed machine learning for high-dimensional, multimodal sensor data</li>
+  <li>Data-efficient learning, dimension reduction, and latent space modeling</li>
+</ul>
 
-_Application Domains_
-- Automated product qualification and quality control for personalized additive manufacturing
-- Robotics and Embodied AI 
-- Biosensing and nondestructive testing
-
+<p style="margin-bottom: 4px;"><em>Application Domains</em></p>
+<ul style="margin-top: 0;">
+  <li>Automated product qualification and quality control for personalized additive manufacturing</li>
+  <li>Robotics and Embodied AI</li>
+  <li>Biosensing and nondestructive testing</li>
+</ul>
 
 ## Opening Positions
 
-Motivated students who enjoy hands-on experiments and data, rigorous thinking, and building solutions for complex engineering systems are welcome to join the Twin Intelligence Lab! Please complete this <a href="https://forms.gle/1Z3GpYdaY8ar4r1H7" target="_blank" rel="noopener">form</a> to be considered. 
+Motivated students who enjoy hands-on experiments and data, rigorous thinking, and building solutions for complex engineering systems are welcome to join the [Twin Intelligence Lab](/lab/)! Please complete this <a href="https://forms.gle/1Z3GpYdaY8ar4r1H7" target="_blank" rel="noopener">form</a> to be considered. 
 
 
 ## News
