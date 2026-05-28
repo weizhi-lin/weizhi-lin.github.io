@@ -8,7 +8,7 @@
 
 Students who would like to work with me on a capstone or final-year project, such as ISE 298, should review the project guide before reaching out.
 
-[How to Choose Your Project Topic](/_includes/files/how-to-choose-topic.md/)
+[How to Choose Your Project Topic](/_includes/files/how-to-choose-topic/)
 
 
 <h2>
