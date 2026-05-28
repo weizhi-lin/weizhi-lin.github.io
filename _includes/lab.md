@@ -1,10 +1,10 @@
-<h1 id="software"></h1>
+<h1 id="lab"></h1>
 
 <h2>
   Twin Intelligence Lab
 </h2>
 
-## Motivation
+### Motivation
 <p align="center">
   <img src="/assets/img/Motivation.png" alt="Twin Intelligence Lab Flyer" style="max-width:100%; height:auto;">
 </p>
@@ -15,7 +15,8 @@
   — American Institute of Aeronautics and Astronautics (AIAA Digital Engineering Integration Committee 2020)
 </blockquote>
 
-## Twin Intelligence Lab Overview
+
+### Twin Intelligence Lab Overview
 
 <p align="center">
   <img src="/assets/img/DTlab.png" alt="Twin Intelligence Lab Flyer" style="max-width:100%; height:auto;">
