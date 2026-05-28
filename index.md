@@ -5,8 +5,17 @@ layout: homepage
 
 ## Research Interests
 
-- Domain-informed machine learning of surface manifold data, with applications in autonomous 3D printing systems.
-- Digital twin systems for smart manufacturing and healthcare. 
+Intelligent digital twin systems for smart manufacturing, healthcare, and complex engineering systems
+
+### Methodological Pillars
+- Geometric data representation, modeling, and learning
+- Domain-informed machine learning for high-dimensional, multimodal sensor data
+- Data-efficient learning, dimension reduction, and latent space modeling
+
+### Application Domains
+- Automated product qualification and quality control for personalized additive manufacturing
+- Robotics and Embodied AI 
+- Biosensing and nondestructive testing
 
 
 ## News
