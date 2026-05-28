@@ -2,13 +2,15 @@
 
 <h2>
 
-  Student Project Guide
+  Student Project Mentoring
 
 </h2>
 
-Students who would like to work with me on a capstone or final-year project, such as ISE 298, should review the project guide before reaching out.
+Students who would like to work with me on a capstone or final-year project (e.g., ISE 298), should review the <a href="/how-to-choose-topic/" target="_blank" rel="noopener">project guide</a> and submit this <a href="https://forms.gle/NgY9Cha4MYxyb65b9" target="_blank" rel="noopener">application form</a>. 
 
-[How to Choose Your Project Topic](/how-to-choose-topic/)
+<p style="color:#BF1013; font-weight:600;">
+  Please kindly note that I will prioritize responses to students who have submitted the project mentoring application form. Thank you for your understanding.
+</p>
 
 
 <h2>
