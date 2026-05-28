@@ -17,15 +17,17 @@ Dr. Weizhi Lin is a tenure-track Assistant Professor in the [Department of Indus
 </ul>
 
 <p style="margin-top: 0; margin-bottom: 0;"><em>Application Domains</em></p>
-<ul style="margin-top: 0; margin-bottom: 2px;">
+<ul style="margin-top: 0; margin-bottom: 8px;">
   <li>Automated product qualification and quality control for personalized additive manufacturing</li>
   <li>Robotics and Embodied AI</li>
   <li>Biosensing and nondestructive testing</li>
 </ul>
 
-## Opening Positions
+## Openings
 
-Motivated students who enjoy hands-on experiments and data, rigorous thinking, and building solutions for complex engineering systems are welcome to join the [Twin Intelligence Lab](/lab/)! Please complete this <a href="https://forms.gle/1Z3GpYdaY8ar4r1H7" target="_blank" rel="noopener">form</a> to be considered. 
+Motivated students who enjoy hands-on experiments and data, rigorous thinking, and building solutions for complex engineering systems are welcome to join the [Twin Intelligence Lab](/lab/)!
+
+Please complete this <a href="https://forms.gle/1Z3GpYdaY8ar4r1H7" target="_blank" rel="noopener">form</a> to be considered. 
 
 
 ## News
