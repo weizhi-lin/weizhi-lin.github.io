@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.2"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-remote-theme"
 gem "webrick", "~> 1.8"
-gem "rexml"  # Add this line
