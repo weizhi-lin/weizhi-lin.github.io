@@ -5,17 +5,19 @@ layout: homepage
 Dr. Weizhi Lin is a tenure-track Assistant Professor in the [Department of Industrial and Systems Engineering](https://www.sjsu.edu/ise/) at San José State University. She received her Ph.D. in Industrial and Systems Engineering from the [University of Southern California](https://ise.usc.edu/) in 2025, under the supervision of [Prof. Qiang Huang](https://huanglab.usc.edu/). Her research focuses on domain-informed statistical and machine learning methods for high-dimensional and complex data, including surface manifold data, biosensing signals, and image data. Her work contributes to the development of enabling methodologies for digital twin systems in smart manufacturing and healthcare.
 
 ## Research Interests 
-Intelligent digital twin systems for smart manufacturing, healthcare, and complex engineering systems.
+<p style="margin-bottom: 2px;">
+  Intelligent digital twin systems for smart manufacturing, healthcare, and complex engineering systems.
+</p>
 
-<p style="margin-bottom: 4px;"><em>Methodological Pillars</em></p>
-<ul style="margin-top: 0;">
+<p style="margin-top: 0; margin-bottom: 0;"><em>Methodological Pillars</em></p>
+<ul style="margin-top: 0; margin-bottom: 2px;">
   <li>Geometric data representation, modeling, and learning</li>
   <li>Domain-informed machine learning for high-dimensional, multimodal sensor data</li>
   <li>Data-efficient learning, dimension reduction, and latent space modeling</li>
 </ul>
 
-<p style="margin-bottom: 4px;"><em>Application Domains</em></p>
-<ul style="margin-top: 0;">
+<p style="margin-top: 0; margin-bottom: 0;"><em>Application Domains</em></p>
+<ul style="margin-top: 0; margin-bottom: 2px;">
   <li>Automated product qualification and quality control for personalized additive manufacturing</li>
   <li>Robotics and Embodied AI</li>
   <li>Biosensing and nondestructive testing</li>
