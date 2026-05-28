@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Publications
+title: Publications and Presentations
 permalink: /publications/
 ---
 <h1 id="publications"></h1>
@@ -15,3 +15,12 @@ permalink: /publications/
 {% include publications.md %}
 
 {% include conference.md %}
+
+<h1 id="Invited Presentations"></h1>
+
+<h2>
+  Invited Presentations 
+</h2>
+
+{% include presentations.md %}
+
