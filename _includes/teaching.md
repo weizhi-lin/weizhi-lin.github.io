@@ -1,6 +1,17 @@
 <h1 id="teaching"></h1>
 
 <h2>
+
+  Student Project Guide
+
+</h2>
+
+Students who would like to work with me on a capstone or final-year project, such as ISE 298, should review the project guide before reaching out.
+
+[How to Choose Your Project Topic](/how-to-choose-project-topic/)
+
+
+<h2>
   Teaching Experience
 </h2>
 
