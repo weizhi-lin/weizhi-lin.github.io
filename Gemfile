@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-remote-theme"
+gem "jekyll", "~> 4.2.2"
+gem "jekyll-remote-theme", "~> 0.4.3"
+gem "jekyll-sass-converter", "~> 2.2"
 gem "webrick", "~> 1.8"
 gem "rexml", "~> 3.2"
