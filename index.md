@@ -17,7 +17,7 @@ Dr. Weizhi Lin is a tenure-track Assistant Professor in the [Department of Indus
 </ul>
 
 <p style="margin-top: 0; margin-bottom: 0;"><em>Application Domains</em></p>
-<ul style="margin-top: 0; margin-bottom: 8px;">
+<ul style="margin-top: 0; margin-bottom: 20px;">
   <li>Automated product qualification and quality control for personalized additive manufacturing</li>
   <li>Robotics and Embodied AI</li>
   <li>Biosensing and nondestructive testing</li>
