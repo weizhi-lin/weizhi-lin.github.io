@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "How to Choose a Topic for Your Final Project"
 permalink: /how-to-choose-topic/
 ---
