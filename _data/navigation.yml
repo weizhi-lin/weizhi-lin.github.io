@@ -18,8 +18,8 @@ main:
   - title: "Honors"
     url: /honors/
     
-  - title: "Presentations"
-    url: /presentations/
-
   - title: "Software"
     url: /software/
+
+  - title: "Twin Intelligence Lab"
+    url: /lab/
