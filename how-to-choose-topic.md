@@ -8,7 +8,9 @@ permalink: /how-to-choose-topic/
 
 - This guide is intended for students who would like to work with me on a capstone or final-year project, such as ISE 298. It is not intended for students seeking research project opportunities. 
 - If you would like to work with me on your final-year project, please review this guide carefully and identify a few potential project topics or directions before reaching out. 
-- Please include a brief project proposal and your CV in the email you send me.
+- To help me better understand your background and project interests, please complete this <a href="https://forms.gle/NgY9Cha4MYxyb65b9" target="_blank" rel="noopener">application form</a> before reaching out.
+- **Please kindly note that emails regarding ISE 298 can only be considered after the form has been completed. Thank you for helping me review all requests fairly and efficiently!**
+
 
 ### For Students Interested in Industry
 
