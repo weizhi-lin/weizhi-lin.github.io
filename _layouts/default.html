@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} | {{ site.affiliation }}</title>
     
     <meta name="google-site-verification" content="gcwzdLb_WzNkiGcMjYOQ0v4Rs__SvKzqzQuCXMbFNHI" />
@@ -64,6 +65,41 @@
       }
     }
   </script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Weizhi Lin",
+          "honorificSuffix": "Ph.D.",
+          "jobTitle": "Assistant Professor",
+          "affiliation": {
+            "@type": "CollegeOrUniversity",
+            "name": "San José State University",
+            "url": "https://www.sjsu.edu/"
+          },
+          "department": {
+            "@type": "Organization",
+            "name": "Department of Industrial and Systems Engineering"
+          },
+          "email": "mailto:weizhi.lin@sjsu.edu",
+          "url": "https://weizhi-lin.github.io/",
+          "image": "https://weizhi-lin.github.io/assets/img/weizhilin.png",
+          "sameAs": [
+            "https://scholar.google.com/citations?user=CylLW1kAAAAJ&hl=en",
+            "https://github.com/weizhi-lin/",
+            "https://www.linkedin.com/in/weizhi-lin-a08608191"
+          ],
+          "knowsAbout": [
+            "Industrial and Systems Engineering",
+            "Domain-informed machine learning",
+            "Smart manufacturing",
+            "Digital twins",
+            "3D printing",
+            "Sensor-based monitoring",
+            "Healthcare systems"
+          ]
+        }
+    </script>
     
   </head>
 
