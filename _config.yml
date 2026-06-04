@@ -64,3 +64,6 @@ exclude:
   - html_source_file/
   - vendor
   - .bundle
+
+plugins:
+  - jekyll-sitemap
