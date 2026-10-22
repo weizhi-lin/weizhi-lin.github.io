@@ -28,7 +28,7 @@ Dr. Weizhi Lin is a tenure-track Assistant Professor in the [Department of Indus
 
 - Motivated students who enjoy hands-on experiments and data, rigorous thinking, and building solutions for complex engineering systems are welcome to join the [Twin Intelligence Lab](/lab/)!
 - We are particularly interested in students with experience or interest in **signal processing, computer vision, 3D shape analysis, and computational modeling**. Strong motivation to learn is equally important.
-- **Interested in joining us?** Please review our <a href="/assets/files/TI-Lab_WeizhiLin_Fall2026.pdf" target="_blank" rel="noopener"><strong>Student Research Opportunities Flyer</strong></a> and complete the <a href="https://forms.gle/BchCf2Q5z1SqpaN47" target="_blank" rel="noopener"><strong>Research Interest Application Form</strong></a>.
+- **Interested in joining us?** Please review our <a href="/assets/files/TI-Lab_WeizhiLin_Fall2026.pdf" target="_blank" rel="noopener" style="color:#BF1013; font-weight:600;">Student Research Opportunities Flyer</a> and complete the <a href="https://forms.gle/BchCf2Q5z1SqpaN47" target="_blank" rel="noopener" style="color:#BF1013; font-weight:600;">Research Interest Application Form</a>.
 
 ## News
 - **[Oct. 2026]** **<strong style="color:#BF1013; font-weight:600">Student Scholarship Awards</strong>** Congratulations to my master's students **Keshavi Satish Sharma** and **Sangeeta Das** on being selected as **Fall 2026 Davidson Student Scholars (DSS)** in the College of Engineering at San José State University! Their research projects are *“MAVIS: Multimodal Audio-Visual In-Situ Print Error Monitoring”* (Keshavi) and *“Primitive-Aware Quality Learning and Process Optimization in Additive Manufacturing”* (Sangeeta).
