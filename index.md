@@ -31,6 +31,8 @@ Dr. Weizhi Lin is a tenure-track Assistant Professor in the [Department of Indus
 
 
 ## News
+- **[Oct. 2026]** **<strong style="color:#BF1013; font-weight:600">Student Scholarship Awards</strong>** Congratulations to my master's students **Keshavi Satish Sharma** and **Sangeeta Das** on being selected as **Fall 2026 Davidson Student Scholars (DSS)** in the College of Engineering at San José State University! Their research projects are *“MAVIS: Multimodal Audio-Visual In-Situ Print Error Monitoring”* (Keshavi) and *“Primitive-Aware Quality Learning and Process Optimization in Additive Manufacturing”* (Sangeeta).
+- **[Oct. 2025]** **<strong style="color:#BF1013; font-weight:600">New Paper Published</strong>** in *IISE Transactions*. [DOI: <a href="https://doi.org/10.1080/24725854.2025.2561558" target="_blank">10.1080/24725854.2025.2561558</a>].
 - **[Aug. 2025]** Joined the Department of Industrial and Systems Engineering at San José State University as a **Tenure-track Assistant Professor**.
 - **[Jan. 2025]** **<strong style="color:#BF1013; font-weight:600">New Paper Accepted</strong>** in *IEEE Transactions on Automation Science and Engineering (TASE)*. The paper is titled *“Automated Surface Patch Extraction for 3D Printing Qualification”* and is now in press. [DOI: <a href="https://doi.org/10.1109/TASE.2025.3535900" target="_blank">10.1109/TASE.2025.3535900</a>].
 - **[Jan. 2025]** **<strong style="color:#BF1013; font-weight:600">New Paper Accepted</strong>** in *IEEE Access*. The paper is titled *“Automated Internal Defect Identification and Localization Based on a Near-field SAR Millimeter-Wave Imaging System”* and is now in press. [DOI: <a href="https://doi.org/10.1109/ACCESS.2025.3531913" target="_blank">10.1109/ACCESS.2025.3531913</a>].
